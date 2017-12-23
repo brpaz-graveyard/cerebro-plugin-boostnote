@@ -1,0 +1,54 @@
+{
+  "name": "cerebro-plugin-boostnote",
+  "description": "Cerebro plugin for searching Boostnote notes.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bruno Paz",
+    "email": "brunopaz@sapo.pt"
+  },
+  "repository": {
+    "url": "https://github.com/brpaz/cerebro-plugin-boostnote"
+  },
+  "dependencies": {
+    "cerebro-tools": "^0.1.8",
+    "cerebro-ui": "^0.0.16",
+    "classnames": "^2.2.5",
+    "cson-parser": "^2.0.0",
+    "fs-extra": "^4.0.2",
+    "glob": "^7.1.2",
+    "glob-promise": "^3.3.0",
+    "highlight.js": "^9.12.0",
+    "marky": "^1.2.0",
+    "react": "^15.5.4",
+    "react-frame-component": "^2.0.0",
+    "react-highlight": "^0.10.0",
+    "react-dom": "^15.5.4",
+    "remarkable": "^1.7.1",
+    "shebang-loader": "^0.0.1",
+    "timer-machine": "^1.1.0",
+    "uuid": "^3.1.0",
+    "webpack-merge": "^4.1.1"
+  },
+  "devDependencies": {
+    "cerebro-scripts": "^0.0.25",
+    "chai": "^4.1.2",
+    "eslint": "^4.12.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-config-base": "^1.0.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-react": "^7.5.1",
+    "mocha": "^4.0.1"
+  },
+  "main": "dist/index.js",
+  "keywords": [
+    "cerebro",
+    "cerebro-plugin"
+  ],
+  "scripts": {
+    "start": "cerebro-scripts start",
+    "build": "cerebro-scripts build",
+    "lint": "./node_modules/.bin/eslint .",
+    "test": "mocha --require ./test/setup.js"
+  },
+  "license": "MIT"
+}
